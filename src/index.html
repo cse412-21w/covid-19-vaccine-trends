@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,900;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
     <title>CSE 412 Project</title>
 </head>
+
 <body>
     <h1 class="display-3">COVID-19 TRENDS</h1>
     <h3 class="subheadline">an exploration of global vaccine distribution</h3>
-    <p class="intro-paragraph lead">Countries around the world have started vaccinating against COVID-19, signalling an approaching end to the pandemic. However, there is still a lot of ambiguity around timelines on when vaccines will be available or when certain groups will be eligible to receive them. Most states and countries are currently operating on a very strict rollout plan in structured phases to get the vaccine to vulnerable populations first. By analyzing both global and national vaccination data to visualize trends and estimate when we can hit certain milestones as well as look at country specific data and compare how vaccine distribution plans differ across the globe. 
+    <p class="intro-paragraph lead">Countries around the world have started vaccinating against COVID-19, signalling an
+        approaching end to the pandemic. However, there is still a lot of ambiguity around timelines on when vaccines
+        will be available or when certain groups will be eligible to receive them. Most states and countries are
+        currently operating on a very strict rollout plan in structured phases to get the vaccine to vulnerable
+        populations first. By analyzing both global and national vaccination data to visualize trends and estimate when
+        we can hit certain milestones as well as look at country specific data and compare how vaccine distribution
+        plans differ across the globe.
     </p>
 
     <section id="tableauDemo2">
         <h3 class="display-4">A look at the global vaccine rollout</h3>
         <p class="intro-paragraph lead">The first COVID-19 vaccine was administered the <a
                 href="https://www.reuters.com/article/uk-health-coronavirus-britain/go-for-it-says-grandmother-who-got-worlds-first-pfizer-covid-vaccine-in-britain-idUSKBN28I0OQ">first
-                week of December</a> in 2020, marking the start of the end of the pandemic. Since then, multiple vaccines
-            have been developed and approved for use around the world. Vaccine rollout plans differ greatly, here's where
-            countries around the world line up in terms of <em>what percent of their populations have been vaccinated</em>
+                week of December</a> in 2020, marking the start of the end of the pandemic. Since then, multiple
+            vaccines
+            have been developed and approved for use around the world. Vaccine rollout plans differ greatly, here's
+            where
+            countries around the world line up in terms of <em>what percent of their populations have been
+                vaccinated</em>
         </p>
-        <div class='tableau-embed' id='animation-viz'>
-            <noscript>
-                <a href='#'>
-                    <img alt=' '
-                        src='https://10ay.online.tableau.com/t/ashshah/views/animation/Sheet1?:origin=card_share_link&:embed=n'
-                        style='border: none' />
-                </a>
-            </noscript>
-            <object class='tableauViz' style='display:none;'>
-                <param name='host_url'
-                    value='https://10ay.online.tableau.com/t/ashshah/views/animation/Sheet1?:origin=card_share_link&:embed=n' />
+        <div class='tableauPlaceholder' id='viz1614372605136' style='position: relative'><noscript><a href='#'><img
+                        alt=' '
+                        src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;an&#47;animation_viz&#47;Sheet1&#47;1_rss.png'
+                        style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
                 <param name='embed_code_version' value='3' />
                 <param name='site_root' value='' />
+                <param name='name' value='animation_viz&#47;Sheet1' />
                 <param name='tabs' value='no' />
                 <param name='toolbar' value='yes' />
                 <param name='static_image'
-                    value='https://10ay.online.tableau.com/t/ashshah/views/animation/Sheet1?:origin=card_share_link&:embed=n' />
+                    value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;an&#47;animation_viz&#47;Sheet1&#47;1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
                 <param name='language' value='en' />
-            </object>
-        </div>
-        <script type='text/javascript'>
-            var divElement = document.getElementById('animation-viz');
-            var vizElement = divElement.getElementsByTagName('object')[0];
-            vizElement.style.width = '85%';
-            vizElement.style.height = (divElement.offsetWidth * 0.4) + 'px';
-            var scriptElement = document.createElement('script');
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);
-        </script>
+            </object></div>
+        <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1614372605136'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     </section>
 
 
@@ -61,4 +66,5 @@
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="index.js"></script>
+
 </html>
