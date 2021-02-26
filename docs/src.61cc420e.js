@@ -120,4 +120,4 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 })({"Focm":[function(require,module,exports) {
 
 },{}]},{},["Focm"], null)
-//# sourceMappingURL=https://cse412.github.io/project-demo/src.61cc420e.js.map
+//# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/src.61cc420e.js.map
