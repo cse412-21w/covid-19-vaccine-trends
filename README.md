@@ -1,10 +1,19 @@
 # Final Project Demo
 ## Team Members
-Place your team member names here.
+* Ash Shah
+* Saksham Aggarwal
+* Jacob Swierz
+* Shivaum Kumar
 ### Contribution Statements
-Add individual contribution statements here.
+
+* Ash:
+* Saksham:
+* Jacob:
+* Shivaum:
+
 ## Project Proposal Abstract
-This is the space for you to add a description for your project.
+
+Countries around the world have started vaccinating against COVID-19, signalling an approaching end to the pandemic. However, there is still a lot of ambiguity around timelines on when vaccines will be available or when certain groups will be eligible to receive them. Most states and countries are currently operating on a very strict rollout plan in structured phases to get the vaccine to vulnerable populations first. We plan on analyzing both global and national vaccination data to visualize trends and estimate when we can hit certain milestones as well as look at country specific data and compare how vaccine distribution plans differ across the globe. 
 
 ## Getting Started
 
