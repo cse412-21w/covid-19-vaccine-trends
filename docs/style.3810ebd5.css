@@ -37,5 +37,24 @@ h3 {
     text-align: center;
 }
 
+.team-title {
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 2rem;
+}
 
-/*# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/style.4c895244.css.map */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.team-card {
+    flex: 0 0 250px;
+    margin: 0.5rem;
+    padding: 2rem;
+}
+
+/*# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/style.3810ebd5.css.map */

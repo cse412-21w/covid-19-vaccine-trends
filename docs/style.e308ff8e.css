@@ -37,5 +37,24 @@ h3 {
     text-align: center;
 }
 
+.team-title {
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.team-card {
+    flex: 0 0 250px;
+    margin: 0.5rem;
+    padding: 2rem;
+}
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
