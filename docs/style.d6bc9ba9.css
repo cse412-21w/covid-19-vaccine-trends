@@ -40,7 +40,8 @@ h3 {
 }
 
 .tableauPlaceholder {
-    padding: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 #animation-viz {
@@ -67,4 +68,4 @@ h3 {
     padding: 2rem;
 }
 
-/*# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/style.e1886dcb.css.map */
+/*# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/style.d6bc9ba9.css.map */
