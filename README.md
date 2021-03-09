@@ -6,10 +6,7 @@
 * Shivaum Kumar
 ### Contribution Statements
 
-* Ash:
-* Saksham:
-* Jacob:
-* Shivaum:
+Add individual contribution statements here.
 
 ## Project Proposal Abstract
 
