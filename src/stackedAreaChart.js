@@ -104,15 +104,29 @@ d3.csv("us_daily_vaccines.csv",
       .y0(function(d) { return y(d[0]); })
       .y1(function(d) { return y(d[1]); }))
 
+  // Vertical line on mouseover
+  var mouseG = svg.append("g")
+                  .attr("class", "mouse-over-effects");
+  mouseG.append("path")
+        .attr("class", "mouse-line")
+        .style("stroke", "black")
+        .style("stroke-width", "2px")
+        .style("opacity", "0")
+        // .style("z-index", "10");
+
   svg.append("rect")
       .attr("class", "overlay")
       .attr("width", width)
       .attr("height", height)
       .on("mouseover", function() {
         focus.style("display", null);
+        d3.select(".mouse-line")
+          .style("opacity", "1");
       })
       .on("mouseout", function() {
         tooltip.html(``).style("visibility", "hidden");
+        d3.select(".mouse-line")
+          .style("opacity", "0");
       })
       .on("mousemove", mousemove);
 
@@ -129,6 +143,16 @@ d3.csv("us_daily_vaccines.csv",
     var depl=parseFloat(d['pv'])
     sum = parseInt(d.pv) + parseInt(d.pfv)
     tooltip.html("As of " + dateWriter(d.date) + ", " + sum + " people have been <br> vaccinated, of which " +  d.pfv + " are fully vaccinated.").style("visibility", "visible");
+
+    var mouse = d3.mouse(this);
+
+    // move the vertical line
+    d3.select(".mouse-line")
+      .attr("d", function() {
+        var d = "M" + mouse[0] + "," + height;
+        d += " " + mouse[0] + "," + 0;
+        return d;
+      });
   }
 
   svg.append("circle").attr("cx",820).attr("cy",20).attr("r", 6).style("fill", '#0F57A0')
@@ -152,25 +176,26 @@ d3.csv("us_daily_vaccines.csv",
       .style("text-anchor", "middle")
       .text("Number of People");
 
-  var vertical = d3.select("#stackedChart")
-  .append("div")
-  .attr("class", "remove")
-  .style("position", "absolute")
-  .style("width", "100px")
-  .style("height", "380px")
-  .style("top", "10px")
-  .style("bottom", "30px")
-  .style("left", "0px")
-  .style("color", "#000")
-  .style("stroke-width", "100px")//, 'stroke-width': '1px', 'pointer-events': 'none'})
+  // var vertical = d3.select("div#stackedChart")
+  // .append("div")
+  // .attr("class", "remove")
+  // .style("position", "absolute")
+  // .style("width", "100px")
+  // .style("height", "380px")
+  // .style("top", "10px")
+  // .style("bottom", "30px")
+  // .style("left", "0px")
+  // .style("color", "#000")
+  // .style("stroke-width", "1px")
+  // .style('pointer-events', 'none')//, 'stroke-width': '1px', 'pointer-events': 'none'})
 
-  d3.select("#stackedChart")
-    .on("mousemove", function(){  
-        mousex = d3.mouse(this);
-        mousex = mousex[0] + 5;
-        vertical.style("left", mousex + "px" )})
-    .on("mouseover", function(){  
-        mousex = d3.mouse(this);
-        mousex = mousex[0] + 5;
-        vertical.style("left", mousex + "px")});
+  // d3.select("div#stackedChart")
+  //   .on("mousemove", function(){  
+  //       mousex = d3.mouse(this);
+  //       mousex = mousex[0] + 5;
+  //       vertical.style("left", mousex + "px" )})
+  //   .on("mouseover", function(){  
+  //       mousex = d3.mouse(this);
+  //       mousex = mousex[0] + 5;
+  //       vertical.style("left", mousex + "px")});
 })
