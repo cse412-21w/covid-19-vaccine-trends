@@ -18,7 +18,7 @@ async function createChart(data) {
     let margin = ({ top: 16, right: 6, bottom: 6, left: 0 });
 
     let n = 13;
-    let duration = 45;
+    let duration = 100;
 
     let y = d3.scaleBand()
         .domain(d3.range(n + 1))
@@ -135,7 +135,7 @@ async function createChart(data) {
                 .attr("width", d => x(d.value) - x(0)));
     }
 
-    let k = 20
+    let k = 100;
 
     let names = new Set(data.map(d => d.country));
 
