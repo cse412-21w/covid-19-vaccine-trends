@@ -85,3 +85,34 @@ h3 {
 #trial {
     margin: 6rem;
 }
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+
+.center {
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+}
+
+.chart_info {
+    margin-left: 250px;
+}
+
+.rect:hover { opacity: 0.75 }
+
+.focus circle {
+    fill: black;
+    stroke: white;
+}
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.legend {                                                   /* NEW */
+    font-size: 12px;                                          /* NEW */
+  }                                                           /* NEW */

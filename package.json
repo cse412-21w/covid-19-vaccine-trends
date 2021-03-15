@@ -29,6 +29,8 @@
     "parcel-plugin-static-files-copy": "^2.5.1"
   },
   "dependencies": {
+    "d3": "^6.6.0",
+    "nodemon": "^2.0.7",
     "topojson-client": "3"
   }
 }
