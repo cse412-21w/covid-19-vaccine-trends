@@ -112,7 +112,6 @@ d3.csv("us_daily_vaccines.csv",
         .style("stroke", "black")
         .style("stroke-width", "2px")
         .style("opacity", "0")
-        // .style("z-index", "10");
 
   svg.append("rect")
       .attr("class", "overlay")
