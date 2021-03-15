@@ -1,0 +1,120 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.subheadline {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-size: 1em;
+}
+
+.intro-paragraph {
+    padding-left: 13rem;
+    padding-right: 13rem;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+
+.content {
+    padding-left: 13rem;
+    padding-right: 13rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.subheader {
+    padding-top: 3rem;
+}
+
+.tablea-embed {
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+}
+
+.tableauPlaceholder {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#animation-viz {
+    text-align: center;
+}
+
+.team-title {
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.team-card {
+    flex: 0 0 250px;
+    margin: 0.5rem;
+    padding: 2rem;
+}
+
+.tableauMap {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+#observablehq-viewof-replay-3e3111bf{
+    margin-left: 5rem;
+}
+
+#observablehq-chart-3e3111bf {
+    margin: 5rem;
+}
+
+#trial {
+    margin: 6rem;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+
+.center {
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+}
+
+.chart_info {
+    margin-left: 250px;
+}
+
+.rect:hover { opacity: 0.75 }
+
+.focus circle {
+    fill: black;
+    stroke: white;
+}
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.legend {                                                   /* NEW */
+    font-size: 12px;                                          /* NEW */
+  }                                                           /* NEW */
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
