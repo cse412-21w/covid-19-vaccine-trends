@@ -86,4 +86,35 @@ h3 {
     margin: 6rem;
 }
 
-/*# sourceMappingURL=/style.e308ff8e.css.map */
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+
+.center {
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+}
+
+.chart_info {
+    margin-left: 250px;
+}
+
+.rect:hover { opacity: 0.75 }
+
+.focus circle {
+    fill: black;
+    stroke: white;
+}
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.legend {                                                   /* NEW */
+    font-size: 12px;                                          /* NEW */
+  }                                                           /* NEW */
+
+/*# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/style.1e5046e1.css.map */
