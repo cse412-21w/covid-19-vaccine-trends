@@ -1043,7 +1043,7 @@ function _createChart() {
               left: 0
             };
             n = 13;
-            duration = 100;
+            duration = 45;
             y = d3.scaleBand().domain(d3.range(n + 1)).rangeRound([margin.top, margin.top + barSize * (n + 1 + 0.1)]).padding(0.1);
             x = d3.scaleLinear([0, 1], [margin.left, width - margin.right]);
             mapThing = d3.group(data, function (d) {
@@ -1053,7 +1053,7 @@ function _createChart() {
             color = d3.scaleOrdinal().range(d3.schemeTableau10).domain(countryArray);
             formatDate = d3.utcFormat("%B %d, %Y");
             formatNumber = d3.format(",d");
-            k = 100;
+            k = 35;
             names = new Set(data.map(function (d) {
               return d.country;
             }));
@@ -1182,4 +1182,4 @@ function _createChart() {
   return _createChart.apply(this, arguments);
 }
 },{"regenerator-runtime/runtime":"QVnC","../static/updated_rates.csv":"F5og"}]},{},["e0kg"], null)
-//# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/bar-chart.12977a2f.js.map
+//# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/bar-chart.d97a9f62.js.map
