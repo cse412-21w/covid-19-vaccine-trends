@@ -175,27 +175,4 @@ d3.csv("us_daily_vaccines.csv",
       .attr("dy", "1em")
       .style("text-anchor", "middle")
       .text("Number of People");
-
-  // var vertical = d3.select("div#stackedChart")
-  // .append("div")
-  // .attr("class", "remove")
-  // .style("position", "absolute")
-  // .style("width", "100px")
-  // .style("height", "380px")
-  // .style("top", "10px")
-  // .style("bottom", "30px")
-  // .style("left", "0px")
-  // .style("color", "#000")
-  // .style("stroke-width", "1px")
-  // .style('pointer-events', 'none')//, 'stroke-width': '1px', 'pointer-events': 'none'})
-
-  // d3.select("div#stackedChart")
-  //   .on("mousemove", function(){  
-  //       mousex = d3.mouse(this);
-  //       mousex = mousex[0] + 5;
-  //       vertical.style("left", mousex + "px" )})
-  //   .on("mouseover", function(){  
-  //       mousex = d3.mouse(this);
-  //       mousex = mousex[0] + 5;
-  //       vertical.style("left", mousex + "px")});
 })
