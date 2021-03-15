@@ -1043,7 +1043,7 @@ function _createChart() {
               left: 0
             };
             n = 13;
-            duration = 45;
+            duration = 100;
             y = d3.scaleBand().domain(d3.range(n + 1)).rangeRound([margin.top, margin.top + barSize * (n + 1 + 0.1)]).padding(0.1);
             x = d3.scaleLinear([0, 1], [margin.left, width - margin.right]);
             mapThing = d3.group(data, function (d) {
@@ -1053,7 +1053,7 @@ function _createChart() {
             color = d3.scaleOrdinal().range(d3.schemeTableau10).domain(countryArray);
             formatDate = d3.utcFormat("%B %d, %Y");
             formatNumber = d3.format(",d");
-            k = 20;
+            k = 100;
             names = new Set(data.map(function (d) {
               return d.country;
             }));
@@ -1209,7 +1209,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53394" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60333" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

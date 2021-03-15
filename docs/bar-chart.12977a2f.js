@@ -869,7 +869,7 @@ try {
 }
 
 },{}],"F5og":[function(require,module,exports) {
-module.exports = "https://cse412-21w.github.io/covid-19-vaccine-trends/updated_rates.49822463.csv";
+module.exports = "https://cse412-21w.github.io/covid-19-vaccine-trends/updated_rates.f8561bc5.csv";
 },{}],"e0kg":[function(require,module,exports) {
 function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e2) { throw _e2; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e3) { didErr = true; err = _e3; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 
@@ -1043,7 +1043,7 @@ function _createChart() {
               left: 0
             };
             n = 13;
-            duration = 45;
+            duration = 100;
             y = d3.scaleBand().domain(d3.range(n + 1)).rangeRound([margin.top, margin.top + barSize * (n + 1 + 0.1)]).padding(0.1);
             x = d3.scaleLinear([0, 1], [margin.left, width - margin.right]);
             mapThing = d3.group(data, function (d) {
@@ -1053,7 +1053,7 @@ function _createChart() {
             color = d3.scaleOrdinal().range(d3.schemeTableau10).domain(countryArray);
             formatDate = d3.utcFormat("%B %d, %Y");
             formatNumber = d3.format(",d");
-            k = 20;
+            k = 100;
             names = new Set(data.map(function (d) {
               return d.country;
             }));
@@ -1182,4 +1182,4 @@ function _createChart() {
   return _createChart.apply(this, arguments);
 }
 },{"regenerator-runtime/runtime":"QVnC","../static/updated_rates.csv":"F5og"}]},{},["e0kg"], null)
-//# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/bar-chart.e5b881af.js.map
+//# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/bar-chart.12977a2f.js.map
