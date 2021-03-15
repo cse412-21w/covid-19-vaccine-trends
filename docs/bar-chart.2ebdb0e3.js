@@ -1053,7 +1053,7 @@ function _createChart() {
             color = d3.scaleOrdinal().range(d3.schemeTableau10).domain(countryArray);
             formatDate = d3.utcFormat("%B %d, %Y");
             formatNumber = d3.format(",d");
-            k = 20;
+            k = 35;
             names = new Set(data.map(function (d) {
               return d.country;
             }));
@@ -1209,7 +1209,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53394" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60387" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -135,7 +135,7 @@ async function createChart(data) {
                 .attr("width", d => x(d.value) - x(0)));
     }
 
-    let k = 20
+    let k = 35;
 
     let names = new Set(data.map(d => d.country));
 
