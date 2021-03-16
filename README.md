@@ -6,10 +6,13 @@
 * Shivaum Kumar
 ### Contribution Statements
 
-* Ash: Ash worked on the overall content flow of the page as well as the first visualization, the animated bar chart race displaying global vaccine distribution. 
-* Saksham: Saksham worked on the second and third visualizations about vaccination rollouts in the United States, including the line chart and stacked bar chart.
-* Jacob:
-* Shivaum: 
+Ash: Ash worked on the first visualization, the animated bar chart race displaying global vaccine distribution as well as overall styling and writeups. 
+
+Saksham: Saksham worked on the second and third visualizations about vaccination rollouts in the United States, including the line chart and stacked bar chart.
+
+Jacob:
+
+Shivaum: 
 
 ## Project Proposal Abstract
 
