@@ -8,9 +8,9 @@
 
 Ash: Ash worked on the first visualization, the animated bar chart race displaying global vaccine distribution as well as overall styling and writeups. 
 
-Saksham: Saksham worked on the second and third visualizations about vaccination rollouts in the United States, including the line chart and stacked bar chart.
+Saksham: Saksham worked on the second (stacked area chart) and fourth (stacked bar chart) visualizations about vaccination rollouts in the United States, including the line chart and stacked bar chart. Wrote part of the visualization descriptions.
 
-Jacob:
+Jacob: Jacob worked on the third visualization (bubble chart) about the total vaccine count in each state. Also proofread the content on the website.
 
 Shivaum: 
 
