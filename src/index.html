@@ -54,13 +54,12 @@
         <div class="center" id="stackedChart" style="width: 1500px"></div>
     </section>
 
-    <section id="tableauMap">
-        <h3 class="subheader display-4">vaccine distribution on a national scale</h3>
+    <section>
+        <h3 class="subheader display-4">Vaccine distribution on a national scale</h3>
         <p class="content lead">The United States has had some of the most serious Covid-19 outbreaks from any
             country. In order to combat this, serious effort to administer vaccines has been made. The following gives
-            insight on how vaccine distribution looks like in the US by state, per 100,000 people to account for
-            different
-            populations.</p>
+            insight on how various states compare to each other in terms of vaccine doses administered per 100,000 people.</p>
+        <div class="center_bubble" id="bubbleChart"></div>
 
 
         <p class="content lead">In the following visualizations we can see how many vaccines doses are adminsterred
@@ -108,9 +107,11 @@
 </script>
 <script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="http://d3js.org/topojson.v0.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="bar-chart.js"></script>
 <script src="stackedAreaChart.js"></script>
 <script src="stackedStatesChart.js"></script>
 <script src="index.js"></script>
+<script src="usMap.js"></script>
 </html>

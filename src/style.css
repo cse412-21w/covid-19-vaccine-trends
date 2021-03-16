@@ -44,6 +44,12 @@ h3 {
     padding-right: 5rem;
 }
 
+.tableauMap {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 3rem;
+}
+
 #animation-viz {
     text-align: center;
 }
@@ -66,12 +72,6 @@ h3 {
     flex: 0 0 250px;
     margin: 0.5rem;
     padding: 2rem;
-}
-
-.tableauMap {
-    margin-top: 3rem;
-    text-align: center;
-    padding: 3rem;
 }
 
 #observablehq-viewof-replay-3e3111bf{
@@ -116,3 +116,7 @@ h3 {
 .legend {                                                   /* NEW */
     font-size: 12px;                                          /* NEW */
   }                                                           /* NEW */
+
+.center_bubble {
+    margin-left: 25%;
+}

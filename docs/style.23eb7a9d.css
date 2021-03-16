@@ -44,6 +44,12 @@ h3 {
     padding-right: 5rem;
 }
 
+.tableauMap {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 3rem;
+}
+
 #animation-viz {
     text-align: center;
 }
@@ -66,12 +72,6 @@ h3 {
     flex: 0 0 250px;
     margin: 0.5rem;
     padding: 2rem;
-}
-
-.tableauMap {
-    margin-top: 3rem;
-    text-align: center;
-    padding: 3rem;
 }
 
 #observablehq-viewof-replay-3e3111bf{
@@ -117,4 +117,8 @@ h3 {
     font-size: 12px;                                          /* NEW */
   }                                                           /* NEW */
 
-/*# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/style.1e5046e1.css.map */
+.center_bubble {
+    margin-left: 25%;
+}
+
+/*# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/style.23eb7a9d.css.map */
