@@ -107,6 +107,10 @@ h3 {
     pointer-events: all;
 }
 
+.final {
+    margin: 0rem 8rem 0rem 8rem;
+}
+
 .legend {                                                   /* NEW */
     font-size: 12px;                                          /* NEW */
   }                                                           /* NEW */

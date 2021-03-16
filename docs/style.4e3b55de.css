@@ -107,8 +107,12 @@ h3 {
     pointer-events: all;
 }
 
+.final {
+    margin: 0rem 8rem 0rem 8rem;
+}
+
 .legend {                                                   /* NEW */
     font-size: 12px;                                          /* NEW */
   }                                                           /* NEW */
 
-/*# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/style.b5fb507f.css.map */
+/*# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/style.4e3b55de.css.map */
