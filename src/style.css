@@ -23,8 +23,7 @@ h1 {
 .content {
     padding-left: 13rem;
     padding-right: 13rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
 }
 
 .subheader {
@@ -83,7 +82,7 @@ h3 {
 }
 
 #trial {
-    margin: 6rem;
+    margin: 4rem 6rem 2rem 6rem;
 }
 
 .line {
@@ -113,9 +112,13 @@ h3 {
     pointer-events: all;
 }
 
-.legend {                                                   /* NEW */
-    font-size: 12px;                                          /* NEW */
-  }                                                           /* NEW */
+.final {
+    margin: 0rem 8rem 0rem 8rem;
+}
+
+.legend {
+    font-size: 12px;
+}
 
 .center_bubble {
     margin-left: 25%;

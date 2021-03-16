@@ -1,6 +1,6 @@
 require("regenerator-runtime/runtime");
 const width = 975;
-const height = 610;
+const height = 480;
 const myDataLocation = require('../static/updated_rates.csv');
 
 let svg = d3.select("#trial")

@@ -892,7 +892,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 require("regenerator-runtime/runtime");
 
 var width = 975;
-var height = 610;
+var height = 480;
 
 var myDataLocation = require('../static/updated_rates.csv');
 
@@ -1209,7 +1209,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49767" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49828" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

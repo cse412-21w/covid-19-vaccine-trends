@@ -892,7 +892,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 require("regenerator-runtime/runtime");
 
 var width = 975;
-var height = 610;
+var height = 480;
 
 var myDataLocation = require('../static/updated_rates.csv');
 
@@ -1182,4 +1182,4 @@ function _createChart() {
   return _createChart.apply(this, arguments);
 }
 },{"regenerator-runtime/runtime":"QVnC","../static/updated_rates.csv":"F5og"}]},{},["e0kg"], null)
-//# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/bar-chart.d97a9f62.js.map
+//# sourceMappingURL=https://cse412-21w.github.io/covid-19-vaccine-trends/bar-chart.bcd8fc9c.js.map

@@ -30,7 +30,10 @@
                 href="https://www.reuters.com/article/uk-health-coronavirus-britain/go-for-it-says-grandmother-who-got-worlds-first-pfizer-covid-vaccine-in-britain-idUSKBN28I0OQ">first
                 week of December</a> in 2020, marking the start of the end of the pandemic. Since then, multiple
             vaccines have been developed and approved for use around the world. Vaccine rollout plans differ greatly, here's
-            where countries around the world line up in terms of <em>what percent of their populations have been vaccinated</em> There are currently multiple approved vaccines, some relying on a two-dose strategy while others only require one shot. For the purpose of this next visualization, anyone who has received even one shot (out of a possible two) is counted in the country's vaccination numbers. For example, if a country is labeled at 50%, half of their population has received at least one shot even if that means some residents still need a second. The data reflected below is accurate as of March 3th 2021. 
+            where countries around the world line up in terms of <em>what percent of their populations have been vaccinated</em> 
+        </p>
+        <p class="content lead">
+            There are currently multiple approved vaccines, some relying on a two-dose strategy while others only require one shot. For the purpose of this next visualization, anyone who has received even one shot (out of a possible two) is counted in the country's vaccination numbers. For example, if a country is labeled at 50%, half of their population has received at least one shot even if that means some residents still need a second. The <a href="https://www.kaggle.com/gpreda/covid-world-vaccination-progress">data</a> reflected below is accurate as of March 3th 2021.
         </p>
         <div id="trial">
         </div>
@@ -46,7 +49,7 @@
             vaccination rate. In the United States, most states plan on moving in phases to decide who is eligible to
             get the vaccine. In Phase 1, frontline emergency responders and health care workers who were patient facing
             were able to get vaccinated. As states continue to move through phases, more and more people become
-            eligible.</p>
+            eligible. There are currently three FDA approved vaccines in the United States as of March 15 2021 - the Pfizer vaccine, the Moderna vaccine, and most recently, the Johnson & Johnson vaccine. In <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2021/03/11/fact-sheet-president-biden-to-announce-all-americans-to-be-eligible-for-vaccinations-by-may-1-puts-the-nation-on-a-path-to-get-closer-to-normal-by-july-4th/">a recent statement</a>, President Biden announced that all Americans will be eligible for vaccinations by May 1.</p>
     </section>
 
     <section>
@@ -56,6 +59,7 @@
 
     <section>
         <h3 class="subheader display-4">Vaccine distribution on a national scale</h3>
+    <section id="tableauMap">
         <p class="content lead">The United States has had some of the most serious Covid-19 outbreaks from any
             country. In order to combat this, serious effort to administer vaccines has been made. The following gives
             insight on how various states compare to each other in terms of vaccine doses administered per 100,000 people.</p>
@@ -70,6 +74,9 @@
         <div class="center" id="stackedStates" style="width: 1500px"></div>
     </section>
 
+    <section class="conclusion">
+        <p class="content lead">With the increasing approval of new vaccines, marked most recently by the new Johnson & Johnson vaccine that was approved by the FDA for distribution in the United States, countries across the globe are making steady progress towards vaccinating their populations.</p>
+    </section>
     <section id="team-info">
         <h3 class="subheader display-4">Our Team</h3>
         <div class="container">
@@ -94,6 +101,13 @@
                 <p><em>Mathematics</em></p>
             </div>
         </div>
+    </section>
+
+    <section class="sources">
+        <h3 class="subheader display-4">Sources</h3>
+        <p class="final lead">Data regarding the United States' vaccine rollout was from the Centers for Disease Control, and can be found <a href="https://covid.cdc.gov/covid-data-tracker/#vaccinations">here</a></p>
+        <p class="final lead">Global distribution information was from <a href="https://www.kaggle.com/gpreda/covid-world-vaccination-progress">this data set.</a> </p>
+        <p class="final lead">Data visualizations were created using D3, <a href="https://d3js.org/">further documentation here</a></p>
     </section>
 
 
