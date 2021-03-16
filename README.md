@@ -12,7 +12,7 @@ Saksham: Saksham worked on the second (stacked area chart) and fourth (stacked b
 
 Jacob: Jacob worked on the third visualization (bubble chart) about the total vaccine count in each state. Also proofread the content on the website.
 
-Shivaum: 
+Shivaum: Recorded the video and proofread the content.
 
 ## Project Proposal Abstract
 
